@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: FallingPlatform001
+  m_Name: FallingPlatform002
   serializedVersion: 2
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -26,7 +26,7 @@ Transition:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
-  m_SrcState: {fileID: 110276688}
+  m_SrcState: {fileID: 110202992}
   m_DstState: {fileID: 110200000}
   m_TransitionDuration: .25
   m_TransitionOffset: 0
@@ -43,28 +43,28 @@ State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Falling01
+  m_Name: Falling02
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: ed42c3e11b1da294f89733b2340e38a3, type: 2}
+  - {fileID: 7400000, guid: d107a59fd1013704ebfb2e675850a353, type: 2}
   m_ParentStateMachine: {fileID: 110700000}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
---- !u!1102 &110276688
+--- !u!1102 &110202992
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: FallingStill
+  m_Name: FallingStill02
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 223c6d86b7ac68a42be7c30d3dd2d329, type: 2}
+  - {fileID: 7400000, guid: b92950cf50a5be44c8144771bc4a207d, type: 2}
   m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 85, y: 115, z: 0}
+  m_Position: {x: 84, y: 120, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -75,15 +75,15 @@ StateMachine:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Base Layer
-  m_DefaultState: {fileID: 110276688}
+  m_DefaultState: {fileID: 110202992}
   m_States:
   - {fileID: 110200000}
-  - {fileID: 110276688}
+  - {fileID: 110202992}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110276688}
+      first: {fileID: 110202992}
       second:
       - {fileID: 110100000}
   m_MotionSetCount: 1
