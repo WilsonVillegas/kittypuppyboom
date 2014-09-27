@@ -70,6 +70,7 @@ public class DogController : MonoBehaviour {
 			// move char to lastCheckpoint location
 			break;
 		}
+	}
 		
 
 }

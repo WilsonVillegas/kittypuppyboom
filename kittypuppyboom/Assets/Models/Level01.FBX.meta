@@ -2603,6 +2603,516 @@ ModelImporter:
     4301014: TubeMetal023
     4301016: TubeNotches023
     4301018: Sphere002
+    6400000: Box073
+    6400002: Box074
+    6400004: Box075
+    6400006: Box076
+    6400008: Box077
+    6400010: Box078
+    6400012: Box079
+    6400014: Box080
+    6400016: Box081
+    6400018: Box082
+    6400020: Box083
+    6400022: Box084
+    6400024: Box085
+    6400026: Box086
+    6400028: Box087
+    6400030: Box088
+    6400032: Box089
+    6400034: Box090
+    6400036: Box091
+    6400038: Box092
+    6400040: Box093
+    6400042: Box094
+    6400044: Box095
+    6400046: Box096
+    6400048: Box097
+    6400050: Box098
+    6400052: Box099
+    6400054: Box100
+    6400056: Box101
+    6400058: Box102
+    6400060: Box103
+    6400062: Box104
+    6400064: Box105
+    6400066: Box106
+    6400068: Box107
+    6400070: Box108
+    6400072: Box109
+    6400074: Box110
+    6400076: Box111
+    6400078: Box112
+    6400080: Box113
+    6400082: Box114
+    6400084: Box115
+    6400086: Box116
+    6400088: Box117
+    6400090: Box118
+    6400092: Box119
+    6400094: Box120
+    6400096: Box121
+    6400098: Box122
+    6400100: Box123
+    6400102: Box124
+    6400104: Box125
+    6400106: Box126
+    6400108: Box127
+    6400110: Box128
+    6400112: Box129
+    6400114: Box130
+    6400116: Box131
+    6400118: Box132
+    6400120: Box133
+    6400122: Box134
+    6400124: Box135
+    6400126: Box136
+    6400128: Box137
+    6400130: Box138
+    6400132: Box139
+    6400134: Box140
+    6400136: Box141
+    6400138: Box142
+    6400140: Box143
+    6400142: Box144
+    6400144: Box145
+    6400146: Box146
+    6400148: Box147
+    6400150: Box148
+    6400152: Box149
+    6400154: Box150
+    6400156: Box151
+    6400158: Box152
+    6400160: Box153
+    6400162: Box154
+    6400164: Box155
+    6400166: Box156
+    6400168: Box157
+    6400170: Box158
+    6400172: Box159
+    6400174: Box160
+    6400176: Box161
+    6400178: Box162
+    6400180: Box163
+    6400182: Box164
+    6400184: Box165
+    6400186: Box166
+    6400188: Box167
+    6400190: Box168
+    6400192: Box169
+    6400194: Box170
+    6400196: Box171
+    6400198: Box172
+    6400200: Box173
+    6400202: Box174
+    6400204: Box175
+    6400206: Box176
+    6400208: Box177
+    6400210: Box178
+    6400212: Box179
+    6400214: Box180
+    6400216: Box181
+    6400218: Box182
+    6400220: Box183
+    6400222: Box184
+    6400224: Box185
+    6400226: Box186
+    6400228: Box187
+    6400230: Box188
+    6400232: Box189
+    6400234: Box190
+    6400236: Box191
+    6400238: Box192
+    6400240: Box193
+    6400242: Box194
+    6400244: Box195
+    6400246: Box196
+    6400248: Box197
+    6400250: Box198
+    6400252: Box199
+    6400254: Box200
+    6400256: Box201
+    6400258: Box202
+    6400260: Box203
+    6400262: Box204
+    6400264: Box205
+    6400266: Box206
+    6400268: Box207
+    6400270: Box208
+    6400272: Box209
+    6400274: Box210
+    6400276: Box211
+    6400278: Box212
+    6400280: Box213
+    6400282: Box214
+    6400284: Box215
+    6400286: Box216
+    6400288: Box217
+    6400290: Box218
+    6400292: Box219
+    6400294: Box220
+    6400296: Box221
+    6400298: Box222
+    6400300: Box223
+    6400302: Box224
+    6400304: Box225
+    6400306: Box226
+    6400308: Box227
+    6400310: Box228
+    6400312: Box229
+    6400314: Box230
+    6400316: Box231
+    6400318: Box232
+    6400320: Box233
+    6400322: Box234
+    6400324: Box235
+    6400326: Box236
+    6400328: Box237
+    6400330: Box238
+    6400332: Box239
+    6400334: Box240
+    6400336: Box241
+    6400338: Box242
+    6400340: Box243
+    6400342: Box244
+    6400344: Box245
+    6400346: Box246
+    6400348: Box247
+    6400350: Box248
+    6400352: Box249
+    6400354: Box250
+    6400356: Box251
+    6400358: Box252
+    6400360: Box253
+    6400362: Box254
+    6400364: Box255
+    6400366: Box256
+    6400368: Box257
+    6400370: Box258
+    6400372: Box259
+    6400374: Box260
+    6400376: Box261
+    6400378: Box262
+    6400380: Box263
+    6400382: Box264
+    6400384: Box265
+    6400386: Box266
+    6400388: Box267
+    6400390: Box268
+    6400392: Box269
+    6400394: Box270
+    6400396: Box271
+    6400398: Box272
+    6400400: Box273
+    6400402: Box274
+    6400404: Box275
+    6400406: Box276
+    6400408: Box277
+    6400410: Box278
+    6400412: Box279
+    6400414: Box280
+    6400416: Box281
+    6400418: Box282
+    6400420: Box283
+    6400422: Box284
+    6400424: Box285
+    6400426: Box286
+    6400428: Box287
+    6400430: Box288
+    6400432: Box289
+    6400434: Box290
+    6400436: Box291
+    6400438: Box292
+    6400440: Box293
+    6400442: Box294
+    6400444: Box295
+    6400446: Box296
+    6400448: Box297
+    6400450: Box298
+    6400452: Box299
+    6400454: Box300
+    6400456: Box301
+    6400458: Box302
+    6400460: Circle Moving Platform
+    6400462: Circle Moving Platform001
+    6400464: Cylinder037
+    6400466: Cylinder038
+    6400468: Cylinder039
+    6400470: Cylinder040
+    6400472: Cylinder041
+    6400474: Cylinder042
+    6400476: Cylinder043
+    6400478: Cylinder044
+    6400480: Cylinder045
+    6400482: Cylinder046
+    6400484: Cylinder047
+    6400486: Cylinder048
+    6400488: Cylinder049
+    6400490: Cylinder050
+    6400492: Cylinder051
+    6400494: Cylinder052
+    6400496: Cylinder053
+    6400498: Cylinder054
+    6400500: Cylinder055
+    6400502: Cylinder056
+    6400504: Cylinder057
+    6400506: Cylinder058
+    6400508: Cylinder059
+    6400510: Cylinder060
+    6400512: Cylinder061
+    6400514: Cylinder062
+    6400516: Cylinder063
+    6400518: Cylinder064
+    6400520: Cylinder065
+    6400522: Cylinder066
+    6400524: Cylinder067
+    6400526: Cylinder068
+    6400528: Cylinder069
+    6400530: Cylinder070
+    6400532: Cylinder071
+    6400534: Cylinder072
+    6400536: Cylinder073
+    6400538: Cylinder074
+    6400540: Cylinder075
+    6400542: Cylinder076
+    6400544: Cylinder077
+    6400546: Cylinder078
+    6400548: Cylinder079
+    6400550: Cylinder080
+    6400552: Cylinder081
+    6400554: Cylinder082
+    6400556: Cylinder083
+    6400558: Cylinder084
+    6400560: Cylinder085
+    6400562: Cylinder086
+    6400564: Cylinder087
+    6400566: Cylinder088
+    6400568: Cylinder089
+    6400570: Cylinder090
+    6400572: Cylinder091
+    6400574: Cylinder092
+    6400576: Cylinder093
+    6400578: Cylinder094
+    6400580: Cylinder095
+    6400582: Cylinder096
+    6400584: Cylinder097
+    6400586: Cylinder098
+    6400588: Cylinder099
+    6400590: Cylinder100
+    6400592: Cylinder101
+    6400594: Cylinder102
+    6400596: Cylinder103
+    6400598: Cylinder104
+    6400600: Cylinder105
+    6400602: Cylinder106
+    6400604: Cylinder107
+    6400606: Cylinder108
+    6400608: Cylinder109
+    6400610: Cylinder110
+    6400612: Cylinder111
+    6400614: Cylinder112
+    6400616: Cylinder113
+    6400618: Cylinder114
+    6400620: Cylinder115
+    6400622: Cylinder116
+    6400624: Fat Moving Platform002
+    6400626: Fat Moving Platform003
+    6400628: Side Moving Platform003
+    6400630: Side Moving Platform004
+    6400632: Side Moving Platform005
+    6400634: Side Moving Platform006
+    6400636: Sphere001
+    6400638: Sphere002
+    6400640: Stationary Platform003
+    6400642: Stationary Platform004
+    6400644: Stationary Platform005
+    6400646: Stationary Platform006
+    6400648: Stationary Platform007
+    6400650: Stationary Platform008
+    6400652: Stationary Platform009
+    6400654: Stationary Platform010
+    6400656: Stationary Platform011
+    6400658: Stationary Platform012
+    6400660: Stationary Platform013
+    6400662: Stationary Platform014
+    6400664: Stationary Platform015
+    6400666: Stationary Platform016
+    6400668: Stationary Platform017
+    6400670: Stationary Platform018
+    6400672: Stationary Platform019
+    6400674: Stationary Platform020
+    6400676: Stationary Platform021
+    6400678: Stationary Platform022
+    6400680: Stationary Platform023
+    6400682: Stationary Platform024
+    6400684: Stationary Platform025
+    6400686: Stationary Platform026
+    6400688: Stationary Platform027
+    6400690: Stationary Platform028
+    6400692: Stationary Platform029
+    6400694: Stationary Platform030
+    6400696: Torus025
+    6400698: Torus026
+    6400700: Torus027
+    6400702: Torus028
+    6400704: Torus029
+    6400706: Torus030
+    6400708: Torus031
+    6400710: Torus032
+    6400712: Torus033
+    6400714: Torus034
+    6400716: Torus035
+    6400718: Torus036
+    6400720: Torus037
+    6400722: Torus038
+    6400724: Torus039
+    6400726: Torus040
+    6400728: Torus041
+    6400730: Torus042
+    6400732: Torus043
+    6400734: Torus044
+    6400736: Torus045
+    6400738: Torus046
+    6400740: Torus047
+    6400742: Torus048
+    6400744: Torus049
+    6400746: Torus050
+    6400748: Torus051
+    6400750: Torus052
+    6400752: Torus053
+    6400754: Torus054
+    6400756: Torus055
+    6400758: Torus056
+    6400760: Torus057
+    6400762: Torus058
+    6400764: Torus059
+    6400766: Torus060
+    6400768: Torus061
+    6400770: Torus062
+    6400772: Torus063
+    6400774: Torus064
+    6400776: Torus065
+    6400778: Torus066
+    6400780: Torus067
+    6400782: Torus068
+    6400784: Torus069
+    6400786: Torus070
+    6400788: Torus071
+    6400790: Torus072
+    6400792: Torus073
+    6400794: Torus074
+    6400796: Torus075
+    6400798: Torus076
+    6400800: Torus077
+    6400802: Torus078
+    6400804: Torus079
+    6400806: Torus080
+    6400808: Torus081
+    6400810: Torus082
+    6400812: Torus083
+    6400814: Torus084
+    6400816: TubeMetal
+    6400818: TubeMetal001
+    6400820: TubeMetal002
+    6400822: TubeMetal003
+    6400824: TubeMetal004
+    6400826: TubeMetal005
+    6400828: TubeMetal006
+    6400830: TubeMetal007
+    6400832: TubeMetal008
+    6400834: TubeMetal009
+    6400836: TubeMetal010
+    6400838: TubeMetal011
+    6400840: TubeMetal012
+    6400842: TubeMetal013
+    6400844: TubeMetal014
+    6400846: TubeMetal015
+    6400848: TubeMetal016
+    6400850: TubeMetal017
+    6400852: TubeMetal018
+    6400854: TubeMetal019
+    6400856: TubeMetal020
+    6400858: TubeMetal021
+    6400860: TubeMetal022
+    6400862: TubeMetal023
+    6400864: TubeNotches
+    6400866: TubeNotches001
+    6400868: TubeNotches002
+    6400870: TubeNotches003
+    6400872: TubeNotches004
+    6400874: TubeNotches005
+    6400876: TubeNotches006
+    6400878: TubeNotches007
+    6400880: TubeNotches008
+    6400882: TubeNotches009
+    6400884: TubeNotches010
+    6400886: TubeNotches011
+    6400888: TubeNotches012
+    6400890: TubeNotches013
+    6400892: TubeNotches014
+    6400894: TubeNotches015
+    6400896: TubeNotches016
+    6400898: TubeNotches017
+    6400900: TubeNotches018
+    6400902: TubeNotches019
+    6400904: TubeNotches020
+    6400906: TubeNotches021
+    6400908: TubeNotches022
+    6400910: TubeNotches023
+    6400912: TubeTrim
+    6400914: TubeTrim001
+    6400916: TubeTrim002
+    6400918: TubeTrim003
+    6400920: TubeTrim004
+    6400922: TubeTrim005
+    6400924: TubeTrim006
+    6400926: TubeTrim007
+    6400928: TubeTrim008
+    6400930: TubeTrim009
+    6400932: TubeTrim010
+    6400934: TubeTrim011
+    6400936: TubeTrim012
+    6400938: TubeTrim013
+    6400940: TubeTrim014
+    6400942: TubeTrim015
+    6400944: TubeTrim016
+    6400946: TubeTrim017
+    6400948: TubeTrim018
+    6400950: TubeTrim019
+    6400952: TubeTrim020
+    6400954: TubeTrim021
+    6400956: TubeTrim022
+    6400958: TubeTrim023
+    6400960: UpDown Moving Platform003
+    6400962: UpDown Moving Platform004
+    6400964: UpDown Moving Platform005
+    6400966: UpDown Moving Platform006
+    6400968: UpDown Moving Platform007
+    6400970: UpDown Moving Platform008
+    6400972: UpDown Moving Platform009
+    6400974: UpDown Moving Platform010
+    6400976: UpDown Moving Platform011
+    6400978: UpDown Moving Platform012
+    6400980: Wall009
+    6400982: Wall010
+    6400984: Wall011
+    6400986: Wall012
+    6400988: Wall013
+    6400990: Wall014
+    6400992: Wall015
+    6400994: Wall016
+    6400996: Wall017
+    6400998: Wall018
+    6401000: Wall019
+    6401002: Wall020
+    6401004: Wall021
+    6401006: Wall022
+    6401008: Wall023
+    6401010: Wall024
+    6401012: Wall025
+    6401014: Wall026
+    6401016: Wall027
+    6401018: Wall028
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -2625,7 +3135,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: .00999999978
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
