@@ -54,8 +54,7 @@ public class DogController : MonoBehaviour {
 	}
 
 	public void dead(){
-		transform.position = checkPoints[lastCheckpoint].position + new Vector3(0,0,spawnOffset);
-		/*switch(lastCheckpoint){
+		transform.position = new Vector3(checkPoints[lastCheckpoint].position.x, checkPoints[lastCheckpoint].position.y + 0.5f, transform.position.z);		/*switch(lastCheckpoint){
 		case 0:
 			// move char to lastCheckpoint location
 			break;

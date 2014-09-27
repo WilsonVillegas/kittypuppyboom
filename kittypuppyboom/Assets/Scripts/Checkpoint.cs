@@ -17,7 +17,7 @@ public class Checkpoint : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
 		if(!triggered){
-			if(this.name.Equals("Cat")){
+			if(other.gameObject.name.Equals("Cat")){
 				other.gameObject.GetComponent<CatController>().lastCheckpoint++;
 			}else{
 				other.gameObject.GetComponent<DogController>().lastCheckpoint++;
