@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class CommitGenocide : MonoBehaviour {
 
 	private GameController controller;
 
@@ -16,10 +16,12 @@ public class NewBehaviourScript : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other){
-		if(this.tag.Equals("catWin")){
+		if(this.name.Equals("Dog Planet")){
 			controller.CatWin();
 		}else{
 			controller.DogWin();
 		}
+
+		Debug.Log("Boom");
 	}
 }

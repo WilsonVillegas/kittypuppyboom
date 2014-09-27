@@ -8666,7 +8666,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpHeight: 4
-  moveSpeed: 2
+  acceleration: .5
+  maxSpeed: 2
+  airSpeed: .25
   groundCheck: {fileID: 2066081372}
   groundLayer:
     serializedVersion: 2
@@ -8963,8 +8965,9 @@ GameObject:
   - 33: {fileID: 486919603}
   - 23: {fileID: 486919602}
   - 64: {fileID: 486919601}
+  - 114: {fileID: 486919604}
   m_Layer: 8
-  m_Name: Sphere001
+  m_Name: Dog Planet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8990,7 +8993,7 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 486919599}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_SmoothSphereCollisions: 0
@@ -9025,6 +9028,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 486919599}
   m_Mesh: {fileID: 4300508, guid: 2d833c0ad7f193c4c8d960dce2bcf007, type: 3}
+--- !u!114 &486919604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 486919599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce55042805fb9844595ab1f99d767600, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &488185364
 GameObject:
   m_ObjectHideFlags: 0
@@ -16257,7 +16271,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 885211012}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -4.37113883e-08}
-  m_LocalPosition: {x: 52.6952629, y: 3.22793627, z: 8.3936367}
+  m_LocalPosition: {x: 53.432888, y: 3.22793627, z: 8.3936367}
   m_LocalScale: {x: .25, y: .25, z: .25}
   m_Children:
   - {fileID: 479156465}
@@ -16276,7 +16290,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpHeight: 4
-  moveSpeed: -2
+  acceleration: -.5
+  maxSpeed: -2
+  airSpeed: .25
   groundCheck: {fileID: 1331330647}
   groundLayer:
     serializedVersion: 2
@@ -35310,8 +35326,9 @@ GameObject:
   - 33: {fileID: 1840883699}
   - 23: {fileID: 1840883698}
   - 64: {fileID: 1840883697}
+  - 114: {fileID: 1840883700}
   m_Layer: 8
-  m_Name: Sphere002
+  m_Name: Cat Planet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35337,7 +35354,7 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1840883695}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_SmoothSphereCollisions: 0
@@ -35372,6 +35389,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1840883695}
   m_Mesh: {fileID: 4301018, guid: 2d833c0ad7f193c4c8d960dce2bcf007, type: 3}
+--- !u!114 &1840883700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1840883695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce55042805fb9844595ab1f99d767600, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1841621803
 GameObject:
   m_ObjectHideFlags: 0
