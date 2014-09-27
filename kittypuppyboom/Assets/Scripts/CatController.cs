@@ -7,14 +7,17 @@ public class CatController : MonoBehaviour {
 	public float moveSpeed;
 	public Transform groundCheck;
 	public LayerMask groundLayer;
+	public Transform[] checkPoints;
 	public int lastCheckpoint;
+	public float spawnOffset;
 
 	private Vector3 moveVector;
 	private bool grounded;
+	private GameController controller;
 
 	// Use this for initialization
 	void Start () {
-	
+		controller = GameObject.Find("GameController").GetComponent<GameController>();
 	}
 	
 	// Update is called once per frame
@@ -33,6 +36,7 @@ public class CatController : MonoBehaviour {
 
 		if(grounded && Input.GetButtonDown("CatJump"))
 		{
+			controller.CatJump();
 			rigidbody.velocity = new Vector3(rigidbody.velocity.x,jumpHeight,0);
 			grounded = false;
 		}
@@ -49,7 +53,8 @@ public class CatController : MonoBehaviour {
 	}
 
 	public void dead(){
-		switch(lastCheckpoint){
+		transform.position = checkPoints[lastCheckpoint].position + new Vector3(0,0,spawnOffset);
+		/*switch(lastCheckpoint){
 			case 0:
 				// move char to lastCheckpoint location
 				break;
@@ -69,7 +74,7 @@ public class CatController : MonoBehaviour {
 			case 4:
 				// move char to lastCheckpoint location
 				break;
-		}
+		}*/
 
 	}
 
