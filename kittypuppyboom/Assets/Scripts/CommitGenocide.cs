@@ -19,7 +19,7 @@ public class NewBehaviourScript : MonoBehaviour {
 		if(this.tag.Equals("catWin")){
 			controller.CatWin();
 		}else{
-			controller.DogWin()
+			controller.DogWin();
 		}
 	}
 }
