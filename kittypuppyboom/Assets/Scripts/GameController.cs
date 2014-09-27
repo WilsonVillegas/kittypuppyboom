@@ -51,26 +51,31 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
-	public IEnumerator ShrinkPowerUp(float player)
+	public void ShrinkPowerUp(bool player)
+	{
+		StartCoroutine(ShrinkPowerUpHelper(player));
+	}
+
+	private IEnumerator ShrinkPowerUpHelper(bool player)
 	{
 		ChangePlatformSize(player,shrinkAmount);
 		yield return new WaitForSeconds(waitAmount);
-		ChangePlatformSize(player,1/shrinkAmount);
+		ChangePlatformSize(player,-shrinkAmount);
 	}
 
-	private void ChangePlatformSize(float player, float size)
+	private void ChangePlatformSize(bool player, float size)
 	{
-		if(player == 0)
+		if(!player)
 		{
 			for(int i = 0; i < catPlatforms.Length; i++)
 			{
-				catPlatforms[i].transform.localScale *= shrinkAmount;
+				catPlatforms[i].transform.localScale += new Vector3(0,size,0);
 			}
 		}
 		else
-			for(int i = 0; i < catPlatforms.Length; i++)
+			for(int i = 0; i < dogPlatforms.Length; i++)
 			{
-				dogPlatforms[i].transform.localScale *= shrinkAmount;
+				dogPlatforms[i].transform.localScale += new Vector3(0,size,0);
 			}
 	}
 

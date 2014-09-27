@@ -5,8 +5,8 @@ TagManager:
   tags:
   - CatPlatform
   - DogPlatform
-  - 
-  - 
+  - CatPowerUp
+  - DogPowerUp
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
