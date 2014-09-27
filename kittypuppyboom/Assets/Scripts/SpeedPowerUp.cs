@@ -3,7 +3,7 @@ using System.Collections;
 
 public class SpeedPowerUp : MonoBehaviour {
 
-	private bool buff;
+	public bool buff;
 	private GameController controller;
 
 	// Use this for initialization
@@ -22,6 +22,7 @@ public class SpeedPowerUp : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
+		Debug.Log ("should be triggering things");
 		if(this.tag.Equals("catPowerUp") && buff){
 			controller.SpeedPowerUp(0);
 		}else if (this.tag.Equals("catPowerUp")){
@@ -31,5 +32,6 @@ public class SpeedPowerUp : MonoBehaviour {
 		} else {
 			controller.SpeedPowerUp(0);
 		}
+		Destroy(gameObject);
 	}
 }

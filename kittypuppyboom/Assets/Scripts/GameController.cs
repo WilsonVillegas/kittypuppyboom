@@ -35,16 +35,25 @@ public class GameController : MonoBehaviour {
 		dogState = !dogState;
 	}
 
-	public IEnumerator SpeedPowerUp(float player)
+	public void SpeedPowerUp(float player)
 	{
+		Debug.Log(player);
+		StartCoroutine(SpeedPowerUpHelper(player));
+	}
+
+	private IEnumerator SpeedPowerUpHelper(float player)
+	{
+		Debug.Log("speed power up");
 		if(player == 0)
 		{
+			Debug.Log("cat speed");
 			cat.changeSpeed(speedAmount);
 			yield return new WaitForSeconds(waitAmount);
 			cat.changeSpeed(-speedAmount);
 		}
 		else
 		{
+			Debug.Log("dog speed");
 			dog.changeSpeed(speedAmount);
 			yield return new WaitForSeconds(waitAmount);
 			dog.changeSpeed(-speedAmount);
@@ -78,8 +87,12 @@ public class GameController : MonoBehaviour {
 				dogPlatforms[i].transform.localScale += new Vector3(0,size,0);
 			}
 	}
+	public void SlowPowerUp(float player)
+	{
+		StartCoroutine(SlowPowerUpHelper(player));
+	}
 
-	public IEnumerator SlowPowerUp(float player)
+	public IEnumerator SlowPowerUpHelper(float player)
 	{
 		if(player == 0)
 		{

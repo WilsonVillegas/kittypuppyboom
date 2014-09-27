@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class SlowPowerUp : MonoBehaviour {
-	private bool buff;
+	public bool buff;
 	private GameController controller;
 	
 	// Use this for initialization
@@ -30,5 +30,6 @@ public class SlowPowerUp : MonoBehaviour {
 		} else {
 			controller.SlowPowerUp(0);
 		}
+		Destroy(gameObject);
 	}
 }
