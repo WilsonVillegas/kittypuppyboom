@@ -5,18 +5,26 @@ public class SpeedPowerUp : MonoBehaviour {
 
 	public bool buff;
 	private GameController controller;
+	Animator animator;
 
 	// Use this for initialization
 	void Start () {
 		controller = GameObject.Find("GameController").GetComponent<GameController>();
+		animator = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if(this.tag.Equals("catPowerUp") && buff != controller.catState){
-			buff = controller.catState;
+			{
+				buff = controller.catState;
+				animator.SetBool("State",buff);
+			}
 		}else if(this.tag.Equals("dogPowerUp") && buff != controller.dogState){
-			buff = controller.dogState;
+			{
+				buff = controller.dogState;
+				animator.SetBool("State",buff);
+			}
 		}
 	}
 
