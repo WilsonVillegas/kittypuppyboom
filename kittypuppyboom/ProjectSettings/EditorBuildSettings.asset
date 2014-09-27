@@ -4,4 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Launch.unity
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+  - enabled: 1
+    path: Assets/Scenes/CatWin.unity
+  - enabled: 1
+    path: Assets/Scenes/DogWin.unity
