@@ -12,11 +12,11 @@ public class SceneManager : MonoBehaviour {
 		{
 			Application.LoadLevel (m_scene); 
 		}
-		if(Input.GetKey("q") && m_startkeys == "q")
+		if(Input.GetKey("space") && m_startkeys == "q")
 		{
 			Application.LoadLevel (m_scene); 
 		}
-		if(Input.GetKey("p") && m_startkeys == "p")
+		if(Input.GetKey("space") && m_startkeys == "p")
 		{
 			Application.LoadLevel (m_scene); 
 		}
