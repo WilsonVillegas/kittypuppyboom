@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ShrinkPowerUp : MonoBehaviour {
 
-	public GameController controller;
+	private GameController controller;
 	public bool state; //0 = cat, 1 = dog
 
 	// Use this for initialization
