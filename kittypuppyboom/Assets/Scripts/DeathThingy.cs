@@ -14,7 +14,7 @@ public class DeathThingy : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other){
-		if(this.tag.Equals("Cat")){
+		if(other.gameObject.name.Equals("Cat")){
 			other.gameObject.GetComponent<CatController>().dead();
 		}else{
 			other.gameObject.GetComponent<DogController>().dead();
