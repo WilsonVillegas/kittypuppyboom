@@ -13,6 +13,9 @@ public class GameController : MonoBehaviour {
 	public float shrinkAmount;
 	public float waitAmount;
 
+	public bool catPlat;
+	public bool dogPlat;
+
 	// Use this for initialization
 	void Start () {
 		catPlatforms = GameObject.FindGameObjectsWithTag("catPlatform");
@@ -22,6 +25,14 @@ public class GameController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+	}
+
+	public void DogJump(){
+		catPlat = !catPlat;
+	}
+
+	public void CatJump(){
+		dogPlat = !dogPlat;
 	}
 
 	public IEnumerator SpeedPowerUp(float player)
