@@ -18,6 +18,7 @@ public class CatController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		controller = GameObject.Find("GameController").GetComponent<GameController>();
+		lastCheckpoint = -1;
 	}
 	
 	// Update is called once per frame
@@ -55,25 +56,25 @@ public class CatController : MonoBehaviour {
 	public void dead(){
 		transform.position = checkPoints[lastCheckpoint].position + new Vector3(0,0,spawnOffset);
 		/*switch(lastCheckpoint){
-			case 0:
-				// move char to lastCheckpoint location
-				break;
+		case 0:
+			// move char to lastCheckpoint location
+			break;
 
-			case 1:
-				// move char to lastCheckpoint location
-				break;
+		case 1:
+			// move char to lastCheckpoint location
+			break;
 
-			case 2:
-				// move char to lastCheckpoint location
-				break;
+		case 2:
+			// move char to lastCheckpoint location
+			break;
 
-			case 3:
-				// move char to lastCheckpoint location
-				break;
+		case 3:
+			// move char to lastCheckpoint location
+			break;
 
-			case 4:
-				// move char to lastCheckpoint location
-				break;
+		case 4:
+			// move char to lastCheckpoint location
+			break;
 		}*/
 
 	}
