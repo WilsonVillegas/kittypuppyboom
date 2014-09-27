@@ -4,7 +4,9 @@ using System.Collections;
 public class CatController : MonoBehaviour {
 	
 	public float jumpHeight;
-	public float moveSpeed;
+	public float acceleration;
+	public float maxSpeed;
+	public float airSpeed;
 	public Transform groundCheck;
 	public LayerMask groundLayer;
 	public Transform[] checkPoints;
@@ -22,16 +24,23 @@ public class CatController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		float arspd;
 		if(Physics.OverlapSphere(groundCheck.position,.1f,groundLayer).Length != 0)
 		{
 			grounded = true;
+			arspd = 1;
 		}
 		else
+		{
 			grounded = false;
+			arspd = airSpeed;
+		}
 	
 		if(Input.GetButton("Left"))
 		{
-			rigidbody.velocity = new Vector3(moveSpeed,rigidbody.velocity.y,0);
+			rigidbody.velocity += new Vector3(Input.GetAxis("Left")*acceleration*arspd,0,0);
+			if(Mathf.Abs(rigidbody.velocity.x)>Mathf.Abs(maxSpeed))
+				rigidbody.velocity = new Vector3(maxSpeed,rigidbody.velocity.y,0);
 		}
 
 		if(grounded && Input.GetButtonDown("CatJump"))
@@ -49,7 +58,7 @@ public class CatController : MonoBehaviour {
 
 	public void changeSpeed(float changeAmt)
 	{
-		moveSpeed += changeAmt;
+		maxSpeed += changeAmt;
 	}
 
 	public void dead(){

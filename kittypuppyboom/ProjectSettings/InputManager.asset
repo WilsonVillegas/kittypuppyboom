@@ -303,7 +303,7 @@ InputManager:
     altPositiveButton: joystick button 1
     gravity: 1000
     dead: .00100000005
-    sensitivity: 1000
+    sensitivity: 30
     snap: 0
     invert: 0
     type: 0
@@ -335,7 +335,7 @@ InputManager:
     altPositiveButton: joystick button 1
     gravity: 1000
     dead: .00100000005
-    sensitivity: 1000
+    sensitivity: 30
     snap: 0
     invert: 0
     type: 0
