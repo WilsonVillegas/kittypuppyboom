@@ -8408,6 +8408,7 @@ GameObject:
   - 92: {fileID: 479156468}
   - 124: {fileID: 479156467}
   - 81: {fileID: 479156466}
+  - 114: {fileID: 479156470}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -8461,9 +8462,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: .5
+    y: .50999999
     width: 1
-    height: .5
+    height: .49000001
   near clip plane: 2.58999991
   far clip plane: 1000
   field of view: 60
@@ -8480,6 +8481,17 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
+--- !u!114 &479156470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 479156464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f70297df051d6f48b016f1010a9a7f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &480586756
 GameObject:
   m_ObjectHideFlags: 0
@@ -8531,6 +8543,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
+  lastCheckpoint: 0
 --- !u!23 &480586759
 Renderer:
   m_ObjectHideFlags: 0
@@ -15802,6 +15815,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
+  lastCheckpoint: 0
 --- !u!54 &885211015
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27098,7 +27112,7 @@ Camera:
     x: 0
     y: 0
     width: 1
-    height: .449999988
+    height: .49000001
   near clip plane: 2.58999991
   far clip plane: 1000
   field of view: 60
