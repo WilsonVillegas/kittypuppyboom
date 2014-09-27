@@ -7,6 +7,7 @@ public class DogController : MonoBehaviour {
 	public float moveSpeed;
 	public Transform groundCheck;
 	public LayerMask groundLayer;
+	public int lastCheckpoint;
 	
 	private Vector3 moveVector;
 	private bool grounded;
@@ -46,5 +47,29 @@ public class DogController : MonoBehaviour {
 	{
 		moveSpeed += changeAmt;
 	}
+
+	public void dead(){
+		switch(lastCheckpoint){
+		case 0:
+			// move char to lastCheckpoint location
+			break;
+			
+		case 1:
+			// move char to lastCheckpoint location
+			break;
+			
+		case 2:
+			// move char to lastCheckpoint location
+			break;
+			
+		case 3:
+			// move char to lastCheckpoint location
+			break;
+			
+		case 4:
+			// move char to lastCheckpoint location
+			break;
+		}
+		
 
 }
