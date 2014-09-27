@@ -90,5 +90,13 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
+	public void DogWin(){
+		Application.LoadLevel ("DogWin");
+	}
+
+	public void CatWin(){
+		Application.LoadLevel ("CatWin");
+	}
+
 
 }
