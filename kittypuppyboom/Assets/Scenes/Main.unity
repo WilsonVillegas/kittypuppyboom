@@ -9988,7 +9988,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 540035228}
-  - 95: {fileID: 540035229}
   m_Layer: 8
   m_Name: Level01
   m_TagString: Untagged
@@ -10171,21 +10170,6 @@ Transform:
   - {fileID: 1368380218}
   - {fileID: 955335904}
   m_Father: {fileID: 0}
---- !u!95 &540035229
-Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 2d833c0ad7f193c4c8d960dce2bcf007,
-    type: 3}
-  m_PrefabInternal: {fileID: 1836812728}
-  m_GameObject: {fileID: 540035227}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 2d833c0ad7f193c4c8d960dce2bcf007, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_ApplyRootMotion: 1
-  m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!1 &554036311
 GameObject:
   m_ObjectHideFlags: 0
@@ -11056,6 +11040,7 @@ GameObject:
   - 33: {fileID: 605633762}
   - 23: {fileID: 605633761}
   - 64: {fileID: 605633760}
+  - 95: {fileID: 605633763}
   m_Layer: 8
   m_Name: UpDown Moving Platform004
   m_TagString: Untagged
@@ -11118,6 +11103,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1836812728}
   m_GameObject: {fileID: 605633758}
   m_Mesh: {fileID: 4300026, guid: 2d833c0ad7f193c4c8d960dce2bcf007, type: 3}
+--- !u!95 &605633763
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 605633758}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d322d127ee6eee441baaa75260564012, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &610321413
 GameObject:
   m_ObjectHideFlags: 0
@@ -13387,7 +13386,7 @@ Animator:
   m_GameObject: {fileID: 708917404}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 88ca99835b7d4e347a7d89c862bc5d00, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a59eb57233c1a1741aba7f04e85df923, type: 2}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -20575,6 +20574,7 @@ GameObject:
   - 33: {fileID: 1145209729}
   - 23: {fileID: 1145209728}
   - 64: {fileID: 1145209727}
+  - 95: {fileID: 1145209730}
   m_Layer: 8
   m_Name: UpDown Moving Platform003
   m_TagString: Untagged
@@ -20637,6 +20637,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1836812728}
   m_GameObject: {fileID: 1145209725}
   m_Mesh: {fileID: 4300022, guid: 2d833c0ad7f193c4c8d960dce2bcf007, type: 3}
+--- !u!95 &1145209730
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1145209725}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0164cbc0688b9604483dc8113fa9ca78, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &1150445236
 GameObject:
   m_ObjectHideFlags: 0
@@ -21487,6 +21501,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ba9f222524233cd4ca65e7a9432763ad, type: 2}
+    - target: {fileID: 9500000, guid: 88ca99835b7d4e347a7d89c862bc5d00, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a59eb57233c1a1741aba7f04e85df923, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 88ca99835b7d4e347a7d89c862bc5d00, type: 3}
   m_RootGameObject: {fileID: 708917404}
@@ -33653,6 +33671,7 @@ GameObject:
   - 33: {fileID: 1767450730}
   - 23: {fileID: 1767450729}
   - 64: {fileID: 1767450728}
+  - 95: {fileID: 1767450731}
   m_Layer: 8
   m_Name: Side Moving Platform003
   m_TagString: Untagged
@@ -33715,6 +33734,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1836812728}
   m_GameObject: {fileID: 1767450726}
   m_Mesh: {fileID: 4300024, guid: 2d833c0ad7f193c4c8d960dce2bcf007, type: 3}
+--- !u!95 &1767450731
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1767450726}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0f7f0427fd6b71c45935e91b29d0cc4e, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &1767496014
 GameObject:
   m_ObjectHideFlags: 0
@@ -36884,7 +36917,16 @@ Prefab:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 9500000, guid: 2d833c0ad7f193c4c8d960dce2bcf007, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 79a1221f84d401042bd5a5a1bd76116c, type: 2}
+    - target: {fileID: 9500000, guid: 2d833c0ad7f193c4c8d960dce2bcf007, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 2d833c0ad7f193c4c8d960dce2bcf007, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 2d833c0ad7f193c4c8d960dce2bcf007, type: 3}
   m_RootGameObject: {fileID: 540035227}
   m_IsPrefabParent: 0
