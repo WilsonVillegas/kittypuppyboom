@@ -13,13 +13,13 @@ public class GameController : MonoBehaviour {
 	public float shrinkAmount;
 	public float waitAmount;
 
-	public bool catPlat;
-	public bool dogPlat;
+	public bool catState;
+	public bool dogState;
 
 	// Use this for initialization
 	void Start () {
-		catPlatforms = GameObject.FindGameObjectsWithTag("catPlatform");
-		dogPlatforms = GameObject.FindGameObjectsWithTag("dogPlatform");
+		catPlatforms = GameObject.FindGameObjectsWithTag("CatPlatform");
+		dogPlatforms = GameObject.FindGameObjectsWithTag("DogPlatform");
 	}
 	
 	// Update is called once per frame
@@ -28,11 +28,11 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void DogJump(){
-		catPlat = !catPlat;
+		catState = !catState;
 	}
 
 	public void CatJump(){
-		dogPlat = !dogPlat;
+		dogState = !dogState;
 	}
 
 	public IEnumerator SpeedPowerUp(float player)
@@ -51,17 +51,28 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
-	/*public IEnumerator ShrinkPowerUp(float player)
+	public IEnumerator ShrinkPowerUp(float player)
+	{
+		ChangePlatformSize(player,shrinkAmount);
+		yield return new WaitForSeconds(waitAmount);
+		ChangePlatformSize(player,1/shrinkAmount);
+	}
+
+	private void ChangePlatformSize(float player, float size)
 	{
 		if(player == 0)
 		{
-
+			for(int i = 0; i < catPlatforms.Length; i++)
+			{
+				catPlatforms[i].transform.localScale *= shrinkAmount;
+			}
 		}
 		else
-		{
-			
-		}
-	}*/
+			for(int i = 0; i < catPlatforms.Length; i++)
+			{
+				dogPlatforms[i].transform.localScale *= shrinkAmount;
+			}
+	}
 
 	public IEnumerator SlowPowerUp(float player)
 	{
