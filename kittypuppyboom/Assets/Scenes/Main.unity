@@ -14405,6 +14405,7 @@ GameObject:
   - 4: {fileID: 708917405}
   - 95: {fileID: 708917407}
   - 212: {fileID: 708917406}
+  - 114: {fileID: 708917408}
   m_Layer: 0
   m_Name: Coin
   m_TagString: CatPowerUp
@@ -14466,6 +14467,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &708917408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 708917404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc4c0dee5d275542ba831cbd26d40b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
 --- !u!1 &716294499
 GameObject:
   m_ObjectHideFlags: 0
